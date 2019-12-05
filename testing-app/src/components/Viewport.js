@@ -2,10 +2,14 @@ import React from 'react';
 
 const Viewport = props => {
     return (
-        <div>
+        <div className='container'>
+
             <h1>BaseBall App</h1>
-            <h2>Balls: {props.displayBalls}</h2>
-            <h2>Strikes: {props.displayStrikes}</h2>
+            <h2>Hits: {props.viewHits}</h2>
+            <h2>Balls: {props.viewBalls}</h2>
+            <h2>Strikes: {props.viewStrikes}</h2>
+
+           
             
         </div>
     )
